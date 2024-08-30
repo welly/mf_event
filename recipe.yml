@@ -1,16 +1,15 @@
 name: 'manifesto Event'
 description: 'An event content type and view.'
 type: 'Content type'
+recipes:
+  - mf_base
 install:
   # core
   - node
   - datetime
-  # contrib
   - smart_date
-  - pathauto
 config:
   import:
-    pathauto: "*"
     smart_date: "*"
   actions:
     user.role.event_manager:

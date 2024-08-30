@@ -10,23 +10,19 @@ CONTENTS OF THIS FILE
 
 INTRODUCTION
 ------------
-
 (TODO)
 
 INSTALLATION
 ------------
-
 (TODO)
 
 REQUIREMENTS
 ------------
-
 (TODO)
 
 
 CONFIGURATION
 -------------
-
 (TODO)
 
 MAINTAINERS
