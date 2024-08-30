@@ -4,6 +4,7 @@
     "type": "drupal-recipe",
     "minimum-stability": "dev",
     "require": {
-        "drupal/smart_date": ">=4.1"
+        "drupal/smart_date": ">=4.1",
+        "welly/mf_base": "*"
     }
 }
