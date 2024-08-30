@@ -1,15 +1,10 @@
 {
-    "name": "welly/mf_event",
+    "name": "drupal_recipe/mf_event",
     "description": "A recipe to provide an Event content type and supporting view.",
     "type": "drupal-recipe",
-    "authors": [
-        {
-            "name": "Alastair Moore",
-            "email": "alastair.moore@tpximpact.com"
-        }
-    ],
+    "minimum-stability": "dev",
     "require": {
         "drupal/pathauto": "^1.13",
-        "drupal/smart_date": "^4.1"
+        "drupal/smart_date": ">=4.1"
     }
 }
