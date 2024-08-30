@@ -1,5 +1,5 @@
 {
-    "name": "drupal_recipe/mf_event",
+    "name": "welly/mf_event",
     "description": "A recipe to provide an Event content type and supporting view.",
     "type": "drupal-recipe",
     "minimum-stability": "dev",
