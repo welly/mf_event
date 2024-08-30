@@ -1,0 +1,28 @@
+name: 'manifesto Event'
+description: 'An event content type and view.'
+type: 'Content type'
+install:
+  # core
+  - node
+  - datetime
+  # contrib
+  - smart_date
+  - pathauto
+config:
+  import:
+    pathauto: "*"
+    smart_date: "*"
+  actions:
+    user.role.event_manager:
+      createIfNotExists:
+        id: event_manager
+        label: 'Event manager'
+        weight: 2
+        is_admin: false
+        permissions:
+          - 'access administration pages'
+          - 'create event content'
+          - 'delete any event content'
+          - 'edit any event content'
+          - 'edit own event content'
+          - 'view own unpublished content'
