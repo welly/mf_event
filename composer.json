@@ -1,6 +1,14 @@
 {
     "name": "welly/mf_event",
     "description": "A recipe to provide an Event content type and supporting view.",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Alastair Moore",
+            "homepage": "https://www.drupal.org/u/welly",
+            "role": "Maintainer"
+        }
+    ],
     "type": "drupal-recipe",
     "minimum-stability": "dev",
     "require": {
